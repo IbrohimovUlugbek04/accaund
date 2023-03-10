@@ -1,0 +1,163 @@
+/* font started */
+@font-face {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/poppins-v20-latin-regular.woff2") format("woff2"),
+    url("./fonts/poppins-v20-latin-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/poppins-v20-latin-500.woff2") format("woff2"),
+    url("./fonts/poppins-v20-latin-500.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-display: swap;
+  src: url("./fonts/poppins-v20-latin-600.woff2") format("woff2"),
+    url("./fonts/poppins-v20-latin-600.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/poppins-v20-latin-700.woff2") format("woff2"),
+    url("./fonts/poppins-v20-latin-700.woff") format("woff");
+}
+
+/* font has run out */
+
+/* site style started */
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins" sans-serif;
+  background-image: url("./images/banner.jpg");
+}
+
+.hero-wrapper {
+  display: flex;
+  padding-top: 121px;
+  padding-bottom: 121px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.hero-text {
+  width: 525px;
+  margin: 0;
+}
+
+.hero-title {
+  margin-top: 0;
+  margin-bottom: 11px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 55px;
+  letter-spacing: -0.520833px;
+  color: #fff;
+}
+
+.hero-paragrph {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+}
+
+.hero-column {
+  width: 540px;
+}
+
+.hero__column-link {
+  margin-bottom: 24px;
+  padding: 17px 111px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 26px;
+  background: #5E54A4;
+  box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+  border-radius: 10px;
+  color: #fff;
+}
+
+
+.hero__column-form {
+  padding: 40px;
+  background: #fff;
+  box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+  border-radius: 10px;
+}
+
+.hero-input {
+  width: 460px;
+  margin-bottom: 20px;
+  padding: 15px 32px;
+  background: #FFFFFF;
+  border: 1px solid #DEDEDE;
+  border-radius: 5px;
+}
+
+.hero-input:active {
+  background: #FFFFFF;
+  border: 1px solid #5E54A4;
+  border-radius: 5px;
+}
+
+
+.hero-button {
+  margin-bottom: 8px;
+  padding: 15px 136px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  color: #fff;
+  background: #38CC8B;
+  cursor: pointer;
+  box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+  border: none;
+  border-radius: 5px;
+}
+
+.hero__form-paragrph {
+  margin: 0;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 26px;
+  text-align: center;
+  color: #BAB7D4;
+}
+
+.hero__form-link {
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 11px;
+  line-height: 26px;
+  color: #ff7979;
+}
+
+/* the site is out of style */
